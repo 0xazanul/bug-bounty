@@ -1,0 +1,27 @@
+## Scenario 1
+
+
+To test if your target redacted.com is vulnerable to the email verification bypass exploit, follow these precise steps:
+
+Requirements:
+Two email accounts:
+Attacker-controlled email: An email you can access (e.g., abc@gmail.com).
+Target email: A victim's email address on redacted.com (e.g., target@redacted.com).
+HTTP Interception Tool: Use Burp Suite or a similar proxy to monitor and manipulate requests.
+
+Step-by-Step Guide:
+1. Initial Setup with Attacker-Controlled Email:
+- Log into your account on redacted.com.
+- Go to the account settings and change the email to your attacker-controlled email (abc@gmail.com).
+- Capture the verification link sent to abc@gmail.com but do not click it.
+
+2.Switch to Target Email:
+- Change the email to the target email (e.g., target@redacted.com) via the same account settings.
+- A new email verification link will be sent to target@redacted.com. Since you don't have access to this email, ignore it.
+
+3.Reuse the Attacker-Controlled Verification Link:
+- Open the initial email verification link sent to abc@gmail.com and use it to "verify" the target email (target@redacted.com).
+- If the system is flawed, it may incorrectly associate the verification link with the target email.
+Validation Test:
+
+Check whether the target email (target@redacted.com) is now linked and verified under your account.
