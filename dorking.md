@@ -1,6 +1,6 @@
-#unique google dork
+# unique google dork
 
-##dork for subdomain 
+## dork for subdomain 
 
 site:*<*.target.*
 
