@@ -10,4 +10,6 @@ site:*>*.target.*
 
 site:*->*.target.*
 
+site:*<*.site.com
+
 site:*<->*.target.*
